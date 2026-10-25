@@ -1,0 +1,59 @@
+{
+  "mcpServers": {
+    "al-biruni-ai": {
+      "command": "cargo",
+      "args": [
+        "run",
+        "--release",
+        "--quiet"
+      ],
+      "env": {
+        "RUST_LOG": "info",
+        "TITAN_PROTOCOL": "BIRUNI",
+        "TARGET_CHAIN": "Solana",
+        "FIPS_203_LEVEL": "ML-KEM-768",
+        "FIPS_204_LEVEL": "ML-DSA-65"
+      },
+      "tools": [
+        {
+          "name": "calculate_planetary_radius_from_dip",
+          "description": "Computes planetary radius via mountain-horizon trigonometric dip angle formula",
+          "parameters": {
+            "type": "object",
+            "properties": {
+              "mountain_height_m": {
+                "type": "number"
+              },
+              "dip_angle_deg": {
+                "type": "number"
+              }
+            },
+            "required": [
+              "mountain_height_m",
+              "dip_angle_deg"
+            ]
+          }
+        },
+        {
+          "name": "measure_hydrostatic_specific_gravity",
+          "description": "Determines mineral density and purity ratios using hydrostatic balance vessel",
+          "parameters": {
+            "type": "object",
+            "properties": {
+              "dry_weight_g": {
+                "type": "number"
+              },
+              "water_displaced_g": {
+                "type": "number"
+              }
+            },
+            "required": [
+              "dry_weight_g",
+              "water_displaced_g"
+            ]
+          }
+        }
+      ]
+    }
+  }
+}
