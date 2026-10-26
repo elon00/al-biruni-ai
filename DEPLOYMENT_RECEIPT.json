@@ -1,0 +1,14 @@
+{
+  "project": "al-biruni-ai",
+  "network": "Solana Devnet",
+  "cluster_url": "https://api.devnet.solana.com",
+  "mint_address": "9oJbcvJhWRfqm3ate1ds3cwE1wdQEnT2TyUzCcDK22qf",
+  "vault_account": "4tFSRmYa9CH461zTw4ZjwHhjoGgzVQaRrkhbVX14bbsT",
+  "initial_supply": 1000000,
+  "decimals": 9,
+  "creation_tx": "4USoL5TwuRy4QMvLGmaV9kK3B18bAQyLV8RBtryTeC8j2Bmg4EszWTq8RKY49WafT9nEpKLsCsr8Jf8c89Fdm4Ys",
+  "account_tx": "5b8fzD6L8i4N9KmLVM7vETCtZ5geafXPQZHmCfEi4za6wDs4e8pAFyoZnt47E3wFkCx2gw53qtqN2pWeZADidSGi",
+  "mint_tx": "4Zz3WmdwtZTrunUrrFMBDLSrfBeFvX43kgqiDgUeqVJVheAiQDGth6wqhNAVrM2sckHy7VA6m2EN8adYTRb4ZYhm",
+  "solana_explorer_mint": "https://explorer.solana.com/address/9oJbcvJhWRfqm3ate1ds3cwE1wdQEnT2TyUzCcDK22qf?cluster=devnet",
+  "timestamp": "2026-10-26 16:14:40 UTC"
+}
